@@ -1,9 +1,6 @@
-def reverseNumber(int number) {
-    def reversed = number.toString().reverse().toInteger()
-    return reversed
-}
+def numbers = [1, 2, 3, 4, 5]
+def reversedNumbers = numbers.reverse()
 
-def number = 12345
-def reversedNumber = reverseNumber(number)
-println "Original number: $number"
-println "Reversed number: $reversedNumber"
+println "Original numbers: $numbers"
+println "Reversed numbers: $reversedNumbers"
+
